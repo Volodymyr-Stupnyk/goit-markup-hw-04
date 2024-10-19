@@ -118,6 +118,7 @@ img {
 .address-link:hover,
 .address-link:focus {
     color: #404bbf;
+    cursor: pointer;
 }
 
 .address {
@@ -150,8 +151,9 @@ img {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center, center;
-    background-size: contain, contain;
-    
+    background-size: cover, cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* .hero-container {
@@ -206,7 +208,8 @@ img {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF
+    background-color: #404BBF;
+    cursor: pointer;
 }
 
 
@@ -231,6 +234,21 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.feature-soc {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    padding-top: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 24px;
+    background-color: #f4f4fd;
+}
+.feature-soc-icon{
+    fill: #2e2f42;
+    
 }
 
 .feature-list {
@@ -358,13 +376,42 @@ img {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
- 
 }
+
+.porfolio-cover-wrapper {
+    position: relative;
+    overflow: hidden;
+} 
+
 
 .portfolio-card {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+}
+.our-portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+}
+
+.porfolio-cover-text {
+    color: #f4f4fd;
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #4d5ae5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
+
+.our-portfolio-item:hover .porfolio-cover-text {
+    transform: translateY(0);
+    
 }
 
 .our-portfolio-subtittle{
@@ -381,6 +428,14 @@ img {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    display: flex;
+}
+
+.footer-box {
+    margin-right: 120px;
+}
+
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -395,4 +450,45 @@ img {
     width: 264px;      
 }
 
+.footer-soc {
+ 
+}
 
+.social-tittle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-soc-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.footer-soc-item {
+    
+    width: 40px;
+    height: 40px;
+}
+
+.instagram {}
+
+.footer-soc-icon {
+    fill: #f4f4fd;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+}
+
+.facebook {}
+
+.twitter {}
+
+.linkedin {}
+/* fill: #4d5ae5; */
