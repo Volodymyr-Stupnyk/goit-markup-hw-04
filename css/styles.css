@@ -344,12 +344,8 @@ img {
 }
 
 .team-soc-link:hover,
-.team-soc-link:focus,
-.footer-soc-link:hover,
-.footer-soc-link:focus {
-    background-color: #404bbf;
-    
-  
+.team-soc-link:focus {
+    background-color: #404bbf;  
 }
 
 .team-soc-icon {
@@ -525,6 +521,12 @@ img {
     background-color:#4d5ae5;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #31d0aa;
 }
 
 .footer-soc-icon {
