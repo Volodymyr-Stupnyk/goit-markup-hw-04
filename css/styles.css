@@ -338,7 +338,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -347,13 +347,13 @@ img {
 .team-soc-link:focus,
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-    background-color: #31d0aa;
+    background-color: #404bbf;
     
   
 }
 
 .team-soc-icon {
-    fill: #fdfdff;
+    fill: #f4f4fd;
 }
 
 
