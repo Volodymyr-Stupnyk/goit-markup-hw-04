@@ -60,7 +60,6 @@ img {
 }
 
 .logo {
-
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -112,13 +111,13 @@ img {
 
 .nav-link-studio::after {
     content: "";
+    display: block;
     width: 100%;
     position: absolute;
     border-radius: 2px;
     background-color: #404bbf;
     height: 4px; 
     left: 0;
-    top: 25px;
     right: 4px;
     bottom: -1px; 
 }
